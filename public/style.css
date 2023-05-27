@@ -1,0 +1,88 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.name{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: #5896d4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-color: #a59999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#nametext{
+    width: 40vw;
+    border: none;
+    padding: 20px;
+    font-size: 16px;
+    outline: none;
+    background-color: #ded7d7;
+}
+.message_area{
+    width: 70%;
+    height: 70%;
+    position: absolute;
+    background: #fef9f9;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    padding-top:40px ;
+    padding: 20px;
+    box-shadow:5px 10px 8px 10px #888888 ;
+}
+
+#textarea{
+    position: relative;
+    top: 40vh;
+    width: 70vw;
+    border: none;
+    padding: 20px;
+    font-size: 16px;
+    outline: none;
+    background-color: #ded7d7;
+}
+
+.message{
+    padding: 20px;
+    border-radius: 4px;
+    margin-bottom: 40px;
+    max-width: 250px;
+    position: relative;
+}
+
+.incoming{
+    background: #9bf1d1;
+    color: black;
+    margin-right: auto;
+}
+
+.outgoing{
+    background: #6dafe9;
+    color: black;
+    margin-left: auto;
+}
+
+.message h4{
+    position: absolute;
+    top: -20px;
+    left: 0;
+    color: #333;
+    font-size: 14px;
+}
